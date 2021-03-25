@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
-import Header from "./components/Header/Header";
-import Search from "./components/Search/Search";
+import Jumbotron from "./components/Header/Header";
+import SearchForm from "./components/Search/Search";
 import Employees from "./components/Employees/Employees";
 import axios from "axios";
 
 function App() {
   const [people, setPeople] = useState([]);
   useEffect(() => {
-    axios.get("https://randomuser.me/api/?results=50").then((result) => {
-      setPeople(result.data.results);
+    axios.get("https://randomuser.me/api/?results=200").then((results) => {
+      setPeople(results.data.results);
     });
-  });
+  }, []);
 
   return (
     <div className="container">
       {console.log(people)}
-      <Header />
-      <Search />
+      <Jumbotron />
+      <SearchForm />
       <Employees employeeData={people} />
     </div>
   );
