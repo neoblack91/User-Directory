@@ -14,29 +14,31 @@ function employedPeople(props) {
       </thead>
       <tbody>
         <tr>
-          <th scope="row">3</th>
+          <img
+            alt={
+              props.employeeData[0]?.name?.first +
+              "," +
+              props.employeeData[0]?.name?.last
+            }
+            src={props.employeeData[0]?.picture?.medium}
+          />
+          <th scope="row">1</th>
           <td>{props.employeeData[0]?.name?.first}</td>
           <td>{props.employeeData[0]?.name?.last}</td>
           <td>{props.employeeData[0]?.phone}</td>
           <td>{props.employeeData[0]?.email}</td>
         </tr>
       </tbody>
+      <tbody>
+        <tr>
+          <th scope="row">2</th>
+          <td>{props.employeeData[1]?.name?.first}</td>
+          <td>{props.employeeData[1]?.name?.last}</td>
+          <td>{props.employeeData[1]?.phone}</td>
+          <td>{props.employeeData[1]?.email}</td>
+        </tr>
+      </tbody>
     </table>
-    // <div>
-    //   <div NaclassNameName="container">
-    //     <div className="card mb-4">
-    //       <div className="card-header">
-    //         <h3>Card title</h3>
-    //       </div>
-    //       <div className="card-body">
-    //         <p className="card-text">
-    //           {props.employeeData[0]?.name?.first}
-    //           {props.employeeData[0]?.name?.last}
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 
