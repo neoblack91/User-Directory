@@ -1,10 +1,10 @@
 import React from "react";
-// import Style from "srcStylesStylesH.css";
+// import "./StyleH.css";
+
 function Jumbotron() {
   return (
     <div className="jumbotron">
-      <h1>Employee </h1>
-      {/* <Search /> */}
+      <h1>Employee List</h1>
     </div>
   );
 }
