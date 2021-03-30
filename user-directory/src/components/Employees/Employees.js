@@ -14,7 +14,7 @@ function employedPeople(props) {
       </thead>
       <tbody>
         {props.employeeData.map(({ picture, name, phone, email }) => {
-          // console.log(person.name);
+          // console.log(picture, name, phone, email);
           return (
             <tr>
               <img alt={name.first + "," + name.last} src={picture.medium} />

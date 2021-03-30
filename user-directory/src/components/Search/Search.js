@@ -1,6 +1,13 @@
 import React from "react";
 
 function SearchForm(props) {
+  props.employeeData.map((item) =>
+    item.type === "Internal" ? (
+      <div className="internal">{item.title}</div>
+    ) : (
+      <div className="external">{item.title}</div>
+    )
+  );
   return (
     <form>
       <div className="form-group">
@@ -26,3 +33,9 @@ function SearchForm(props) {
 }
 
 export default SearchForm;
+
+//   //get values out of person object, and store them in an array
+//   //values = [DoloresRoman947-260-104dolores.roman@example.com,
+//   // FatihAkal(271)-998-2532fatih.akal@example.com]
+//   // array.indexOf
+//   // [apple, orange] => array.indexOf(kiwi) -> -1
