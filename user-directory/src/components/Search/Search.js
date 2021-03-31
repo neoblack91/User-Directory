@@ -1,13 +1,7 @@
 import React from "react";
 
 function SearchForm(props) {
-  props.employeeData.map((item) =>
-    item.type === "Internal" ? (
-      <div className="internal">{item.title}</div>
-    ) : (
-      <div className="external">{item.title}</div>
-    )
-  );
+  console.log(props.employeeData);
   return (
     <form>
       <div className="form-group">

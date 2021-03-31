@@ -10,6 +10,7 @@ function App() {
 
   const handleInputChange = (event) => {
     setInput(event.target.value);
+    console.log(event.target.value);
   };
 
   return (
