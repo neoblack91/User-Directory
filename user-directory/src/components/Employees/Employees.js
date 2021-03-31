@@ -2,8 +2,16 @@ import React from "react";
 import { MDBDataTable } from "mdbreact";
 
 function DatatablePage(props) {
+  console.log(props);
+
   const data = {
     columns: [
+      {
+        label: "Image",
+        field: "Image",
+        sort: "asc",
+        width: 150,
+      },
       {
         label: "First",
         field: "first",
@@ -31,10 +39,11 @@ function DatatablePage(props) {
     ],
     rows: [
       {
-        first: "{props.name.first}",
-        last: "{props.name.last}",
-        phone: "{props.phone}",
-        email: "{props.email}",
+        image: [props.Image],
+        first: [props.first],
+        last: [props.last],
+        phone: [props.phone],
+        email: [props.email],
       },
     ],
   };
