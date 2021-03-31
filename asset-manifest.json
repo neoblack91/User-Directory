@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/neoblack91/User-Directory/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/neoblack91/User-Directory/static/js/main.dfb397d6.chunk.js",
-    "main.js.map": "/neoblack91/User-Directory/static/js/main.dfb397d6.chunk.js.map",
-    "runtime-main.js": "/neoblack91/User-Directory/static/js/runtime-main.55000f19.js",
-    "runtime-main.js.map": "/neoblack91/User-Directory/static/js/runtime-main.55000f19.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/neoblack91/User-Directory/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.08933567.chunk.js": "/neoblack91/User-Directory/static/js/2.08933567.chunk.js",
-    "static/js/2.08933567.chunk.js.map": "/neoblack91/User-Directory/static/js/2.08933567.chunk.js.map",
-    "index.html": "/neoblack91/User-Directory/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/neoblack91/User-Directory/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/neoblack91/User-Directory/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.08933567.chunk.js.LICENSE.txt": "/neoblack91/User-Directory/static/js/2.08933567.chunk.js.LICENSE.txt"
+    "main.css": "/User-Directory/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/User-Directory/static/js/main.dfb397d6.chunk.js",
+    "main.js.map": "/User-Directory/static/js/main.dfb397d6.chunk.js.map",
+    "runtime-main.js": "/User-Directory/static/js/runtime-main.e0136a80.js",
+    "runtime-main.js.map": "/User-Directory/static/js/runtime-main.e0136a80.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/User-Directory/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.08933567.chunk.js": "/User-Directory/static/js/2.08933567.chunk.js",
+    "static/js/2.08933567.chunk.js.map": "/User-Directory/static/js/2.08933567.chunk.js.map",
+    "index.html": "/User-Directory/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/User-Directory/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/User-Directory/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.08933567.chunk.js.LICENSE.txt": "/User-Directory/static/js/2.08933567.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.55000f19.js",
+    "static/js/runtime-main.e0136a80.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.08933567.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
