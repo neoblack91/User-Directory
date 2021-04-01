@@ -2,6 +2,7 @@ import React from "react";
 
 function SearchForm(props) {
   console.log(props.employeeData);
+
   return (
     <form>
       <div className="form-group">
